@@ -10,5 +10,7 @@ public class Main {
         OrderTests orderTests = new OrderTests();
         orderTests.testCreateOrder();
         orderTests.testListOrders();
+
+        System.out.println("The end");
     }
 }
