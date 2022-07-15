@@ -1,18 +1,19 @@
-package com.company;
+package simple.automation;
 
-public class BaseTestWithOrder extends BaseTestWithAuthorization{
+import org.junit.Test;
 
-    public BaseTestWithOrder() {
-        System.out.println("Create order");
-    }
+public class OrderTests extends BaseTestWithOrder{
 
+    @Test
     public void testCreateOrder(){
 
         System.out.println("Check order was created");
     }
 
+    @Test
     public void testListOrders(){
         System.out.println("List orders");
         System.out.println("Check order is displayed");
     }
+
 }

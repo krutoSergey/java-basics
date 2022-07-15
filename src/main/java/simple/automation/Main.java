@@ -1,4 +1,4 @@
-package com.company;
+package simple.automation;
 
 import java.util.*;
 

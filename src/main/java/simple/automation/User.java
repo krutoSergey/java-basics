@@ -1,6 +1,4 @@
-package com.company;
-
-import java.util.Objects;
+package simple.automation;
 
 public class User {
     private String login;
