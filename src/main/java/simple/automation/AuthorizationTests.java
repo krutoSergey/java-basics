@@ -1,6 +1,7 @@
 package simple.automation;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 public class AuthorizationTests extends BaseTestWithAuthorization{
 
